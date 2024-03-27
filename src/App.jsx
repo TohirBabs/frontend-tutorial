@@ -2,12 +2,11 @@
 function App() {
 
   return (
-    <div className="bg-black w-screen h-screen">
-
-
-Frontend Development Presentation
-Calculated Time Duration - 15 mins.
-
+    <div className="bg-black w-screen font-mono text-white ">
+      <div className="max-w-5xl mx-auto">
+        <div className="h-screen flex items-end p-2">
+          <h1 className=" uppercase text-[10rem] leading-none">frontend development</h1>
+        </div>
 Frontend Development is building the part of an application that runs on the user’s device (a.k.a the client). This mostly includes building the interface, coding frontend logic and writing code to interact with servers.
 
 What is a client?
@@ -152,6 +151,10 @@ Then we can have a career road map, tips, important skills and resources section
 
 
 Thank you! The End.
+
+
+
+</div>
 
     </div>
   )
